@@ -1,55 +1,3 @@
-Skip to content
-Michael-Moulana
-/
-expressBookReviews
-
-Type / to search
-
-Code
-Pull requests
-Actions
-Projects
-Security
-Insights
-Pane width
-Use a value between 14% and 49%
-
-17
-Change width
-Files
-Go to file
-t
-final_project
-router
-auth_users.js
-booksdb.js
-general.js
-README.md
-index.js
-package-lock.json
-package.json
-.DS_Store
-.gitignore
-LICENSE
-README.md
-package-lock.json
-Documentation • Share feedback
-BreadcrumbsexpressBookReviews/final_project/router
-/general.js
-Latest commit
-Michael-Moulana
-Michael-Moulana
-small changes
-c9af31d
- · 
-6 months ago
-History
-File metadata and controls
-
-Code
-
-Blame
-82 lines (71 loc) · 2.36 KB
 const express = require('express');
 let books = require("./booksdb.js");
 let isValid = require("./auth_users.js").isValid;
@@ -132,12 +80,3 @@ public_users.get('/review/:isbn', function (req, res) {
 });
 
 module.exports.general = public_users;
-Symbols
-Find definitions and references for functions and other symbols in this file by clicking a symbol below or in the code.
-Filter symbols
-r
-func
-getBooks
-func
-getBookByISBN
-expressBookReviews/final_project/router/general.js at main · Michael-Moulana/expressBookReviews
